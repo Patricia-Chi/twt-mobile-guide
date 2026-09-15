@@ -400,3 +400,19 @@ flutter pub get
 ## 配置完成，恭喜你喵！
 
 完成这些配置并成功运行第一个 Flutter App 后，就可以继续学习 Dart、Flutter Widget、State、网络请求等内容，并开始尝试阅读和参与微北洋项目！加油！
+
+欢迎加入天外天工作室移动组！
+
+## 勘误与反馈
+
+由于 Flutter、Android Studio 和 Android SDK 都在持续更新，本文中的部分界面、版本号或操作步骤可能会随时间发生变化。
+
+如果你在阅读或配置过程中发现：
+
+- 文档内容有错误或遗漏；
+- 某些步骤已经过时；
+- 按照文档操作后仍然无法正常配置环境；
+
+欢迎通过 GitHub Issue 或其他方式联系我，我会尽量及时更新文档。
+本文仓库地址：https://github.com/Patricia-Chi/twt-mobile-guide  
+可以在[我的博客](https://patricia-chi.github.io)在线查看:https://patricia-chi.github.io/2026/09/15/配置Flutter开发环境
