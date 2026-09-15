@@ -33,7 +33,7 @@ git --version
 
 如果能够看到类似下方的提示，说明 Git 安装成功：
 
-![git](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_1_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_1_2026-09-15_16-14-34.jpg)
 
 ---
 
@@ -49,7 +49,7 @@ Flutter 官方历史版本页面：
 https://docs.flutter.dev/install/archive
 ```
 
-![flutter-archive](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_2_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_2_2026-09-15_16-14-34.jpg)
 
 如果官方源在中国大陆网络环境下下载较慢，可以使用国内镜像。
 
@@ -59,7 +59,7 @@ https://docs.flutter.dev/install/archive
 https://mirror.nju.edu.cn/flutter/flutter_infra_release/releases/stable/windows/
 ```
 
-![flutter-mirror](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_3_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_3_2026-09-15_16-14-34.jpg)
 
 下载相应的`.zip`压缩包即可
 
@@ -69,11 +69,11 @@ https://mirror.nju.edu.cn/flutter/flutter_infra_release/releases/stable/windows/
 
 在后续进行版本管理时可以选择`fvm`进行`flutter`版本管理，或在磁盘根目录下建立`flutter`文件夹用来存放不同版本的`flutter sdk`，在项目中手动配置相应路径。
 
-![flutter-sdk](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_4_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_4_2026-09-15_16-14-34.jpg)
 
 解压后，复制`flutter/bin`文件夹的路径备用
 
-![flutter/bin](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_5_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_5_2026-09-15_16-14-34.jpg)
 
 ---
 
@@ -81,11 +81,11 @@ https://mirror.nju.edu.cn/flutter/flutter_infra_release/releases/stable/windows/
 
 打开环境变量设置，搜索`环境变量`或`env`  
 
-![env](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_7_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_7_2026-09-15_16-14-34.jpg)
 
 回车进入，选择`环境变量`选项
 
-![env](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_8_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_8_2026-09-15_16-14-34.jpg)
 
 以下内容建议添加在 **用户变量** 中。
 
@@ -109,11 +109,11 @@ https://mirror.nju.edu.cn/flutter/flutter_infra_release/releases/stable/windows/
 
 这两个变量分别用于 Dart Package 和 Flutter 相关资源的国内镜像下载。
 
-![flutter-mirror](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_9_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_9_2026-09-15_16-14-34.jpg)
 
 配置好后如图所示：
 
-![flutter-mirror](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_10_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_10_2026-09-15_16-14-34.jpg)
 
 #### 将 Flutter 加入 Path
 
@@ -123,7 +123,7 @@ https://mirror.nju.edu.cn/flutter/flutter_infra_release/releases/stable/windows/
 C:\flutter\bin [此处应改为你的`flutter/bin`文件夹的路径]
 ```
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_11_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_11_2026-09-15_16-14-34.jpg)
 
 ### 4. 检查配置情况
 
@@ -137,7 +137,7 @@ where.exe flutter
 
 正常情况下应该能够看到 Flutter 和 Dart 的版本信息，`where.exe flutter` 应指向刚才安装的 Flutter，例如：
 
-![flutter-version](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_12_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_12_2026-09-15_16-14-34.jpg)
 
 执行以下的指令，确认`[✓] Flutter`一项显示为正常：
 
@@ -145,7 +145,7 @@ where.exe flutter
 flutter doctor -v
 ```
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_13_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_13_2026-09-15_16-14-34.jpg)
 ---
 
 ## 三、安装 Android Studio
@@ -162,39 +162,39 @@ https://developer.android.google.cn/studio
 
 点击下载安装程序
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_15_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_15_2026-09-15_16-14-34.jpg)
 
 一路下拉到底选择确认
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_14_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_14_2026-09-15_16-14-34.jpg)
 
 勾选虚拟设备选项
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_16_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_16_2026-09-15_16-14-34.jpg)
 
 根据自身情况自定义路径
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_17_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_17_2026-09-15_16-14-34.jpg)
 
 选不选都行，我这里选了不创建
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_18_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_18_2026-09-15_16-14-34.jpg)
 
 按自己喜好来，我选了否
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_19_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_19_2026-09-15_16-14-34.jpg)
 
 此处直接选择 `Standard` 即可，如有需要，可以选择 `Custom` 修改`Android Studio` 与 `Android SDK` 存储位置
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_42_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_42_2026-09-15_16-14-34.jpg)
 
 确认设置ok就点 `next` ，想改的话点击 `Previous` 回到上一步修改
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_20_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_20_2026-09-15_16-14-34.jpg)
 
 确认之后进入安装，结束后出现如下界面。
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_21_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_21_2026-09-15_16-14-34.jpg)
 
 ---
 
@@ -202,14 +202,14 @@ https://developer.android.google.cn/studio
 
 Android Studio 首次启动完成后，在欢迎页面进入`SDK Manager`
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_26_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_26_2026-09-15_16-14-34.jpg)
 
 ### 1. SDK Platforms
 
 选择`SDK Platforms`
 
 安装`Android 16`
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_24_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_24_2026-09-15_16-14-34.jpg)
 
 ### 2. SDK Tools
 
@@ -222,7 +222,7 @@ Android Emulator
 Android SDK Platform-Tools
 ```
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_23_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_23_2026-09-15_16-14-34.jpg)
 
 ### 3. Android SDK 路径
 
@@ -240,7 +240,7 @@ C:\Users\<用户名>\AppData\Local\Android\Sdk
 
 回到 Android Studio 欢迎页面，在左侧选择`Plugins`
 
-![plugins](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_27_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_27_2026-09-15_16-14-34.jpg)
 
 搜索`Flutter`，安装由 `Google` 提供的 `Flutter` 插件，安装完成后重启 Android Studio。
 
@@ -252,22 +252,22 @@ C:\Users\<用户名>\AppData\Local\Android\Sdk
 
 在 Android Studio 中进入`Virtual Device Manager`，或者在项目中进入 `Tools → Device Manager` 创建一个虚拟设备。
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_29_2026-09-15_16-14-34.jpg)
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_30_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_29_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_30_2026-09-15_16-14-34.jpg)
 
 设备型号没有严格要求，系统镜像建议选择 `Android 16 API 36`
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_31_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_31_2026-09-15_16-14-34.jpg)
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_32_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_32_2026-09-15_16-14-34.jpg)
 
 创建完成后启动模拟器
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_33_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_33_2026-09-15_16-14-34.jpg)
 
 然后在 PowerShell 中执行 `flutter devices` ，如果能够看到类似下图的输出，说明 Flutter 已经成功识别 Android 模拟器。
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_34_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_34_2026-09-15_16-14-34.jpg)
 
 ---
 
@@ -302,7 +302,7 @@ Android toolchain
 Android Studio
 ```
 
-![flutter-doctor](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_41_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_41_2026-09-15_16-14-34.jpg)
 
 <!-- ### 关于 Android License
 
@@ -328,19 +328,19 @@ Warning: The --licenses option is no longer needed.
 
 打开 Android Studio ，点击 `New Flutter Project`
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_35_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_35_2026-09-15_16-14-34.jpg)
 
 ### 1. Flutter SDK path
 
 Generators选择 `Flutter` ，路径选择刚才安装的 Flutter SDK：
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_36_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_36_2026-09-15_16-14-34.jpg)
 
 ### 2. 项目配置
 
 按照图片上这样选即可，点击 `create` 创建项目。
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_37_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_37_2026-09-15_16-14-34.jpg)
 
 ```text
 Project name: test_app
@@ -355,7 +355,7 @@ Platforms：Android iOS
 
 完成后会自动创建出一个计数器的demo,如下图所示。
 
-![flutter-demo](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_38_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_38_2026-09-15_16-14-34.jpg)
 
 先启动刚才创建的 Android 模拟器，然后在 Android Studio 右上方选择对应的 Android Emulator，点击绿色运行按钮。
 
@@ -373,7 +373,7 @@ flutter run -d emulator-5554
 
 最后，模拟器中会出现 Flutter 默认 Demo 页面，至此，Flutter Android 开发环境配置完成。
 
-![flutter-path](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_40_2026-09-15_16-14-34.jpg)
+![](https://raw.githubusercontent.com/Patricia-Chi/twt-mobile-guide/main/assets/flutter_setup/photo_40_2026-09-15_16-14-34.jpg)
 
 ---
 
